@@ -1,9 +1,19 @@
 <p>
-  about works!<a href="" (click)="sendMeHome()"><strong>Take me back</strong></a>
+  About Hello Angular 5<br>
+  Coded along with tutorial at <a href="https://www.youtube.com/watch?v=oa9cnWTpqP8">https://www.youtube.com/watch?v=oa9cnWTpqP8</a><br>
+  Proof of technology demo by JTankersley (<i>typescript + Angular 5, very nice</i>)<br>
+  <a href="" (click)="sendMeHome()"><strong>Take me back</strong></a>
 </p>
 
+Current List:
 <ul>
   <li *ngFor="let goal of goals">
     {{ goal }}
   </li>
 </ul>
+
+<br>
+Deployment process:<br>
+1. navigate to project directory from command prompt<br>
+2. enter: ng build --prod --base-href="https://tankersleyj.github.io/ng5/"<br>
+3. enter: angular-cli-ghpages (or ngh)<br>
